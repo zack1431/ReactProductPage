@@ -1,0 +1,115 @@
+.card-img-top{
+	width: 100%;
+}
+.flt-r{
+	position: relative;
+	float: right;
+	right: 5px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.cartPopup{
+	position: absolute;
+    right: 25px;
+    z-index: 99;
+    box-shadow: 0 1px 2px;
+    max-height: 140px;
+    overflow: auto;
+    top: 70px;
+}
+.ci-pos-relative {
+	position: relative;
+}
+.cart_count{
+	padding: 10px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+.cart_count:hover{
+	background: #000;
+	color: #fff;
+}
+
+.cursor{
+	cursor: pointer;
+}
+.width100{
+	width: 100%;
+}
+.fontBold{
+	font-weight: bold;
+	font-size: 18px;
+}
+.fas: hover{
+	color: yellow;
+}
+/*rating css*/
+.rating-wrapper {
+    overflow: hidden;
+    margin: 5px 0 0 0px;
+    display: inline-block;
+}
+.rating-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    right: 0;
+}
+.rating-star:hover,
+.rating-star:hover ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-wrapper:hover .rating-star:hover,
+.rating-wrapper:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+        background-position: 0 0;
+}
+.rating-star,
+.rating-wrapper:hover .rating-star {
+    float: right;
+    display: block;
+    background: url('images/ratingSmall.svg');
+    background-position: 13px -24px;
+    padding: 6px 6px;
+    margin: 2px;
+}
+
+.rating-wrapper-rate {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    z-index: 99999;
+    margin: 3px 0 0 15px;
+}
+.rating-star-1,
+.rating-wrapper-rate:hover .rating-star-1 {
+    background: url('images/ratingMedium.svg') !important;
+    padding: 8px 8px !important;
+    background-position: 0 16px !important;
+    position: relative;
+    right: 14px;
+}
+.rating-star-1:hover,
+.rating-star-1:hover ~ .rating-star-1 {
+    background-position: 0px 1px !important;
+    background-repeat: no-repeat !important;
+}
+.rating-wrapper-rate:hover .rating-star-1:hover,
+.rating-wrapper-rate:hover .rating-star-1:hover ~ .rating-star-1,
+.rating-input:checked ~ .rating-star-1 {
+    background-position: 0 0 !important;
+}
+.rating-text{
+    position: relative;
+    top: -3px;
+    font-weight: 500;
+    font-weight: normal;
+    text-align: left;
+    color: #91818E;
+    display: inline-block;  
+}
